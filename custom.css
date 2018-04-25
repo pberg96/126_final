@@ -1,0 +1,125 @@
+/* ----Font Styles---- */
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  line-height: 51px;
+  font-size: 46px;
+  text-transform: uppercase;
+  margin: 0 0 23px 0;
+}
+
+h2 {
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+}
+
+h3 {
+    font-family: 'Droid Serif', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 23px 0;
+}
+p {
+  font-family: 'Droid Serif', serif;
+  font-size: 15px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+}
+
+body {
+  background-color: #f6f9f8;
+  margin: 0px;
+}
+
+/* ----Main Body Styling---- */
+.img-fluid{
+
+}
+
+/* ----Main Body Styling---- */
+.bodySec {
+  background-color: #e3eaa7;
+  padding: 15px;
+}
+
+#topFont {
+  padding-top: 25px;
+}
+
+/* ----Styling for card deck---- */
+.card-body {
+  background-color: #86af49;
+}
+
+.cardDeck {
+  padding-top: 40px;
+}
+.cardBox {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.btn-primary{
+  background-color: #B5e7a0;
+  border-color: black;
+  color: black;
+}
+.btn-primary:hover{
+  background-color: #f6f9f8;
+  border-color: black;
+  color: black;
+}
+
+/* ----Styling for hikes page---- */
+
+.scrollDiv{
+  position:relative;
+}
+
+.backImg1 {
+  background-image: url("images/scroll_hanging.jpg");
+  min-height: 50vh;
+}
+
+.backImg2 {
+  background-image: url("images/scroll_grayson.jpg");
+  min-height: 50vh;
+}
+
+.backImg3 {
+  background-image: url("images/scroll_lGlass.jpg");
+  min-height: 50vh;
+}
+
+.backImg4 {
+  background-image: url("images/scroll_linGorge.jpg");
+  min-height: 50vh;
+}
+
+.backImg1, .backImg2, .backImg3, .backImg4 {
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* DESKTOP ONLY */
+  .container-fluid{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .backImg1, .backImg2,.backImg3,.backImg4 {
+    background-attachment: fixed;
+    min-height: 78vh;
+  }
+}
